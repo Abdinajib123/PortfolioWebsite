@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.header{
+    background-color:#000d1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    height: 60px;
+}
+
+.cab{
+    color: darkred;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 15px;
+}
+.din{
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.ho{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.header h1{
+    color: white;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.header ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    margin: 12px;
+    color:white;
+    font-size: 1.4em;
+}
+
+.header ul li a:hover{
+   
+    color: blue;
+    border-bottom: 1px solid ;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000d1a;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.bannerSec1{
+   font: 1em sans-serif;
+   margin-bottom: 10px;
+    margin-left: 8%;
+    margin-top: 12%;
+    bottom: 10px;
+    font-size: 20px;
+
+
+
+
+
+}
+
+.bannerSec1 h1{
+    font-size: 2em;
+    color:blue;
+    padding-bottom: 10px;
+
+}
+
+.bannerSec1 h2{
+    font-size: 1.7em;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+.bannerSec1 h2 .span{
+    color: darkmagenta;
+
+}
+
+.bannerSec1 h3{
+    padding-top: 10px;
+    color: white;
+}
+
+.bannerSec1 p{
+    padding-top: 10px;
+    color: white;
+}
+
+
+
+ .bannerSec1 button{
+    width: 120px;
+    height: 35px;
+    background-color:purple;
+    color:white;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.bannerSec2{
+    margin-top: 12%;
+    margin-right: 150px;
+    height: 300px;
+    width: 400px;    
+;
+  
+
+}
+
+.bannerSec2 img{
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 50%;
+   
+    
+   
+    
+}
+
+.About {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.Aboutsec1{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+.Aboutsec1 img{
+    background-color: #fff;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.Aboutsec2{
+    
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 240px;
+}
+
+.Aboutsec2 h1{
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.Aboutsec2 p{
+    font-size: 1em;
+    padding: 20px;
+    line-height: 30px;
+    
+}
+ .btn{
+    width: 120px;
+    height: 35px;
+    background-color:purple;
+    color:white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.inst{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-left: 15px;
+    gap: 10px;
+}
+
+
+
+.inst .div3{
+    width: 28px;
+    height: 25px;
+   background-color: black;
+   padding-left: 5px;
+   padding-top: 3px;
+   border-radius: 25px;
+   display: flex;
+    
+}
+
+.inst .div4{
+    width: 28px;
+    height: 25px;
+   background-color: black;
+   padding-left: 5px;
+   padding-top: 3px;
+   border-radius: 25px;
+   display: flex;
+    
+}
+
+.inst .div5{
+    width: 28px;
+    height: 25px;
+   background-color: black;
+   padding-left: 5px;
+   padding-top: 3px;
+   border-radius: 25px;
+   display: flex;
+    
+}
+
+.inst .div6{
+    width: 28px;
+    height: 25px;
+   background-color: black;
+   padding-left: 5px;
+   padding-top: 3px;
+   border-radius: 25px;
+   display: flex;
+    
+}
+
+.inst .div7{
+    width: 28px;
+    height: 25px;
+   background-color: black;
+   padding-left: 5px;
+   padding-top: 3px;
+   border-radius: 25px;
+   display: flex;
+    
+}
+
+
+
+
+
+.Skills{
+    background-color: aliceblue;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.Skills h3{
+    text-align: left;
+    padding-top: 105px;
+    padding-left: 130px;
+}
+.Fa{
+    text-align: left;
+    background-color:black;
+    margin-top: -30px;
+    border-radius: 50%;
+    margin-left: 110px;
+    padding: 7px 10px 7px 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.Containerskills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+}
+
+.Skill-section1{
+    width: 300px;
+    height: 270px;
+    margin-bottom: 30PX;
+    background-color: white;
+    border-bottom:3px solid
+}
+
+
+
+.Skill-section1 h1{
+    color:black;
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.Skill-section1 p{
+    color:black;
+    line-height: 25px;
+    padding: 10px 10px;
+}
+
+
+
+
+.Skill-section2{
+    width: 300px;
+    height: 270px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 30PX;
+    background-color:white;
+    border-bottom:3px solid
+}
+
+
+.Skill-section2 h1{
+    color:black;
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+
+.Skill-section2 p{
+    color:black;
+    line-height: 25px;
+    padding: 10px 10px;
+}
+
+.Skill-section3{
+    width: 300px;
+    height: 270px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 30PX;
+    background-color: white;
+    border-bottom:3px solid
+}
+
+
+.Skill-section3 h1{
+    color:black;
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.Skill-section3 p{
+    color:black;
+    line-height: 25px;
+    padding: 10px 10px;
+}
+.html{
+    display: flex;
+    padding-top: 20px;
+}
+.html p{
+    padding-top:-150px ;
+}
+.Projects{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+   
+}
+
+.Projects h1{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.ContainerProject{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+  
+}
+
+
+.Projec1{
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+    justify-content: space-between;    
+    margin-right: 30px;
+    background-color:aliceblue;
+
+   
+}
+
+
+.Projec1 img{
+    width:100%;
+    height: 200px;
+    
+}
+
+.Projec1 h5{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.Projec1 p{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+
+.Project2{
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 30PX;
+    background-color:aliceblue;
+}
+
+.Project2 img{
+    width:100%;
+    height: 200px;
+    
+}
+
+.Project2 h5{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.Project2 p{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.Project3{
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+    margin-left: 60px;
+    margin-bottom: 30PX;
+    background-color:aliceblue;
+}
+
+.Project3 img{
+    width:100%;
+    height: 200px;
+    
+}
+
+.Project3 h5{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.Project3 p{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.Contact{
+    min-height: 100vh;
+    margin-top: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact form{
+    width: 670px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color:#000d1a;
+    flex-wrap: wrap;
+}
+
+.Contact form h1{
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.Contact form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.Contact form input::placeholder{
+    color: white;
+}
+.Contact form #firstname{
+    color: #fff;
+}
+
+.Contact form #lastname{
+    color: #fff;
+}
+.Contact form #mobile{
+    color: #fff;
+}
+
+.Contact form #email{
+    color: #fff;
+}
+.Contact form #firstname,
+.Contact form #lastname,
+.Contact form #email,
+.Contact form #mobile
+{
+    margin-left: 10px;
+}
+
+.Contact form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;    
+}
+
+.Contact form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-width: 80px;
+}
+
+.Contact form #button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
