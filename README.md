@@ -14,7 +14,7 @@ It provides an overview of my background, displays my projects, and offers a way
 ## Installation
 To run this portfolio locally, follow these steps:
 1. Clone the repository: git clone https://github.com/Abdinajib123
-2. Navigate to the project directory: cd Personal-portfolio1
+2. Navigate to the project directory: cd PersonalPortfolio
 3. Install the dependencies: npm install
 4. Start the development server: npm run dev
 5. Open your browser and visit: http://localhost:5173/
